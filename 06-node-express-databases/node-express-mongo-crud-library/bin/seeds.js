@@ -4,9 +4,9 @@ const Book = require("../models/Book.model");
 const DB_NAME = "library-project";
 
 mongoose.connect(`mongodb://localhost/${DB_NAME}`, {
-  useCreateIndex: true,
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  // useCreateIndex: true,
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
 });
 
 const books = [

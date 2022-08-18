@@ -9,9 +9,9 @@ const path = require("path");
 
 mongoose
   .connect("mongodb://localhost/library-project", {
-    useCreateIndex: true,
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useCreateIndex: true,
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
   })
   .then((x) => {
     console.log(
